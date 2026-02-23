@@ -1,10 +1,10 @@
 # FOSSGIS-WorkAdventure-Maps
 
-This repo contains some maps built with the [Tiled Map Editor](https://www.mapeditor.org/) which might be used at some [FOSSGIS](https://fossgis.de/) events in a [WorkAdventure](https://workadventu.re/)-based world. See the ["Create your map!" howto](https://workadventu.re/create-map.html) about how to build maps.
+This repo contains some maps built with the [Tiled Map Editor](https://www.mapeditor.org/) which might be used at some [FOSSGIS](https://fossgis.de/) events in a [WorkAdventure](https://workadventu.re/)-based world. See the ["Build your Map with Tiled" documentation](https://docs.workadventu.re/map-building/tiled-editor/) about how to build maps.
 
 ## Map development
 
-The [official WorkAdventure documentation](https://workadventu.re/map-building/) is pretty comprehensive, so it is recommendable to read it. This repository also contains a simple, Python3 based web server in `serve-maps.py` which uses [`http.server`](https://docs.python.org/3/library/http.server.html) to serve the content of this repository:
+The [official WorkAdventure documentation](https://docs.workadventu.re/map-building/tiled-editor/) is pretty comprehensive, so it is recommendable to read it. This repository also contains a simple, Python3 based web server in `serve-maps.py` which uses [`http.server`](https://docs.python.org/3/library/http.server.html) to serve the content of this repository:
 
 	python3 serve-maps.py
 
